@@ -7,7 +7,7 @@ app.use(cors());
 app.use(exp.json());
 const axios = require('axios');
 
-const mClient = new MongoClient('mongodb+srv://sasimaddipati65:afd39Uao4BS5LE4u@cluster0.obnki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+const mClient = new MongoClient('mongodb+srv://sasimaddipati65:xxxxxxxxxx@cluster0.obnki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 let register;
 mClient.connect()
     .then((connectionObj) => {
