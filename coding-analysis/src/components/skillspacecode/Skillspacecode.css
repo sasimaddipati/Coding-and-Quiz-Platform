@@ -1,0 +1,154 @@
+.compiler-container {
+    width: 80%;
+    min-height: 100px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #d6e3f2;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .compiler-header {
+    margin-bottom: 20px;
+  }
+  .quiz-list{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+  
+  .contest-name {
+    width: 500px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .contest-name:focus {
+    border-color: #007bff;
+  }
+  
+  .problem-statement,
+  .io-section {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    border-color: #007bff;
+}
+
+  
+  .input-output {
+    margin-bottom: 20px;
+  }
+  .sas{
+      width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+  
+  }
+  .prev-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  .add-btn1{
+    background-color: rgb(7, 167, 7);
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    margin-left: 500px;
+    padding: 10px;
+    color: white;
+  }
+  .add-btn1:hover{
+    background-color: rgb(5, 167, 5);
+  }
+  .prev-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .prev-btn:active,
+  .add-btn:active {
+    transform: scale(0.98);
+  }
+  .problem-statement label,
+  .input-output label {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .textarea-context{
+      background-color: #ccc;
+      color: black;
+      width: 50px;
+  }
+  .problem-statement textarea,
+  .io-section textarea {
+    margin-top: 10px;
+  }
+  .io-section {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+  }
+  .io-section .input-output {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .item-quiz-skill{
+       background-color: #a9c0f0;
+       color: black;
+  }
+  
+  .io-section .input-output:last-child {
+    margin-right: 0;
+  }
+  .prev-btn{
+      margin-left: 45%;
+  }
+  
+  @media (max-width: 768px) {
+    .compiler-container {
+        width: 90%;
+    }
+  
+    .io-section {
+        flex-direction: column;
+    }
+  
+    .io-section .input-output {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+  
+    .io-section .input-output:last-child {
+        margin-bottom: 0;
+    }
+  }
+  

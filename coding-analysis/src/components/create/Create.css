@@ -1,0 +1,83 @@
+.container {
+    background-color: #acc8e5;
+    height: 150dvh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .zoneName {
+    font-size: 24px;
+    color: #0d0d0d;
+  }
+  
+  .navButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navButton {
+    background-color: #d6e3f2;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navButtonActive {
+    background-color: #D0C630;
+    color: #000;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .quizCard {
+    background-color: #76CBF9;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    width: 200px;
+    text-align: center;
+  }
+  .link-createquiz{
+    font-family: Arial, sans-serif;
+    background-color: #d7d9dc;
+    border: none;
+    color: #0f0f0f;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .link-createquiz-bg{
+    font-family: Arial, sans-serif;
+    background-color: #b9ecd2;
+    border: none;
+    color: #080808;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .contestCard {
+    background-color: #D2DE37;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    width: 200px;
+    text-align: center;
+  }
+  

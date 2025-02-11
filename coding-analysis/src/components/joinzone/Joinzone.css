@@ -1,0 +1,136 @@
+.full-width{
+    width: 100%;
+    margin-top: 0;
+    background-color:#acc8e5;
+    height:auto;
+}
+.joinclass-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #d6e3f2;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+.join-zone-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #3e477a;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+  position: absolute; 
+  top: 20px; 
+  right: 20px;
+}
+
+
+.join-zone-img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.join-zone-header h1 {
+  font-size: 18px;
+  color: #3f51b5;
+  margin: 0;
+}
+
+.join-zone-form {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  border-radius: 15px;
+  justify-content: space-around;
+  background-color: rgb(174, 182, 201);
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.join-zone-form input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #3f51b5;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.join-zone-form input:focus {
+  border-color: #5c6bc0;
+}
+
+.join-submit {
+  width: 80px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(13, 13, 13);
+  border-radius: 15px;
+  border: 2px solid rgb(78, 135, 78);
+  background-color: rgb(181, 243, 179);
+  transition: background-color 0.3s ease;
+}
+
+.join-submit:hover {
+  background-color: rgb(78, 135, 78);
+  color: white;
+}
+.display-join-zones{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+.joined-zone {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-image: linear-gradient(to left,rgb(138, 87, 219),rgb(83, 98, 211), rgb(63, 135, 194));
+  border: 2px solid #85889a;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #e8eaf6;
+}
+.zonename-in-join{
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+}
+.author-name{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.joined-zone h1 {
+  font-size: 30px;
+  color: #e3dddd;
+  margin: 0;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,56 @@
+.skillspace-body{
+      background-color: #acc8e5;
+      padding: 10px;
+      height: auto;
+}
+.skillspace-header{
+    
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #acc8e5;
+      
+}
+.nav-list {
+      list-style-type: none;
+      margin-left: 35%;
+      padding: 0;
+    }
+    
+    .nav-link {
+      width: 150px;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 15px;
+      display: inline-block;
+      color: black;
+      background-color: lightgray;
+      border-radius: 5px;
+      margin: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .nav-link:hover {
+      background-color: darkgray;
+      color: white;
+    }
+    
+.skillspace-header-content{
+      width: 50%;
+      margin-top: 15px;
+       text-align: center;
+       cursor: pointer;
+       color: white;
+}
+.skillspace-header-content-bg{
+       width: 50%;
+       margin-top: 15px;
+       text-align: center;
+       color: greenyellow;
+}
+.available{
+    width: 400px;
+      color: white;
+      margin: auto;
+      margin-top: 50px;
+}

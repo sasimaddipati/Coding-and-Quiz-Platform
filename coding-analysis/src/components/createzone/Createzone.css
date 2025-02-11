@@ -1,0 +1,143 @@
+.create-zone-container {
+  margin: 0 auto;
+  background-color: #d6e3f2;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.create-zone-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #3e477a;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+  position: absolute; 
+  top: 20px; 
+  right: 20px;
+}
+.zone-submit{
+   width: 25%;
+   height: 50px;
+   font-weight: bold;
+   font-size: large;
+   color: rgb(13, 13, 13);
+   border-radius: 15px;
+   border:2px solid  rgb(78, 135, 78);
+    background-color: rgb(181, 243, 179);
+}
+.zone-submit:hover{
+    background-color: rgb(78, 135, 78);
+    color: white;
+}
+
+.create-zone-header:hover {
+  background-color: #6ab081;
+}
+
+.create-zone-img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.create-zone-header h1 {
+  font-size: 18px;
+  color: #3f51b5;
+  margin: 0;
+}
+
+.create-zone-form {
+  width: 30%;
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-around;
+  background-color: rgb(174, 182, 201);
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative; 
+}
+
+.create-zone-form input {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #3f51b5;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.create-zone-form input:focus {
+  border-color: #5c6bc0;
+}
+
+.zone-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 60px;
+}
+
+.zone-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right,rgb(112, 70, 180),rgb(62, 72, 149), rgb(46, 102, 149));
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.zone-list-display{
+   display:flex;
+   flex-direction: column;
+   cursor: pointer;
+   
+}
+.zone-name{
+   font-size: 30px;
+   font-weight: bold;
+   color:white;
+}
+
+.zone-list-item h1 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+.h1-zone-list{
+   color: #e8eaf6;
+   margin-top: 25px;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}

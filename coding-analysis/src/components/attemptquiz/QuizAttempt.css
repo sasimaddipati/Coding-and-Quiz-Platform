@@ -1,0 +1,194 @@
+/* Parent Container */
+.quiz-attempt-container-parent {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 60px;
+  background-color: #acc8e5;
+}
+
+/* Main Quiz/Contest Container */
+.quiz-attempt-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #d6dce1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.accuracy-message{
+   color: #2e7d32;
+   font-size: 20px;
+   text-align: center;
+   font-weight: 800;
+}
+
+.question-header {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #000;
+}
+.option-list{
+    margin-left: 40px;
+}
+.options-list li {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Radio button and label side by side */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Add space between radio and label */
+  margin-bottom: 10px;
+  width: 100%; /* Full width of the container */
+}
+
+/* Adjust the radio button input and label to ensure proper alignment */
+.input-radio {
+  justify-self: center; /* Center align the radio button */
+  accent-color: #1976d2;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.label-for-option {
+  font-weight: bold;
+  color: #000;
+  word-break: break-word; /* Ensure labels break properly on smaller screens */
+}
+
+
+/* Sample Input/Output Styling */
+.intput-output-label-attempt {
+  color: black;
+  margin-top: 9px;
+}
+
+/* Language Selector */
+.language-select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  width: 130px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Code Textarea */
+.textarea-quizattempt {
+  width: 100%;
+  height: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  resize: vertical;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+}
+
+/* Compile Button */
+.compile-run-attempt {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.compile-run-attempt:hover {
+  background-color: #1565c0;
+}
+
+/* Coding Output and Error Display */
+.coding-output,
+.coding-error {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.coding-output {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.coding-error {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+/* Navigation Buttons */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button1 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: white;
+  background-color: #1976d2;
+}
+
+.button1:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.button1:not(:disabled):hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+
+/* Submit Button */
+.submit-btn {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .quiz-attempt-container {
+    padding: 10px;
+  }
+
+  .textarea-quizattempt {
+    height: 250px;
+  }
+
+  .language-select {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .compile-run-attempt {
+    width: 100%;
+  }
+}

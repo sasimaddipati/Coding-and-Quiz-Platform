@@ -1,0 +1,64 @@
+.quiz-stats-container {
+    width: 80%; /* Set container width */
+    padding: 30px;
+    margin: auto;
+    background:#d6e3f2;
+    color: black;
+    font-family: Arial, sans-serif; /* Set a clean font for the text */
+  }
+  .dfg{
+    background-color:#acc8e5; 
+    height: 180dvh;
+    width: 100%;
+  }
+  .total-students {
+    text-align: center;
+    font-size: 1.2rem; /* Slightly larger font size for emphasis */
+    margin-bottom: 10px; /* Space below the total students count */
+    font-weight: bold; /* Bold text for better visibility */
+  }
+  
+  .quiz-table {
+    width: 100%; /* Table takes the full width of the container */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin-top: 10px; /* Space above the table */
+  }
+  .avg-cal{
+      font-size: 18px;
+      color: #4CAF50;
+      font-weight: 800;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .quiz-table th, 
+  .quiz-table td {
+    border: 1px solid #ddd; /* Light gray border for table cells */
+    padding: 8px; /* Padding inside table cells */
+    text-align: center; /* Center-align text in cells */
+  }
+  .display-contest-sol{
+     display: flex;
+
+  }
+  .display-contest-adj{
+      margin-left: 10px;
+  }
+  .quiz-table th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color for header */
+    font-weight: bold; /* Bold text in header */
+  }
+  
+  .quiz-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  .quiz-table tr:hover {
+    background-color: #ddd; /* Darker gray on hover for rows */
+  }
+  
+  ul {
+    padding-left: 20px; /* Indent unordered list */
+    list-style-type: disc; /* Use disc style for list items */
+  }
+  

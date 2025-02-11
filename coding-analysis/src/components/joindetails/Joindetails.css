@@ -1,0 +1,121 @@
+.zone-details-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 1000px;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f1eded;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .name-in-joindetails{
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+  }
+.heading{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+}
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .completed-section,.ongoing-section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .tab-btn.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .tab-btn:hover {
+    background-color: #e0e0e0;
+  }
+  .display-buttton-quiz{
+        display: flex;
+
+  }
+  .result-display{
+      color: rgb(179, 153, 8);
+      font-weight: bold;
+  }
+  .completed-item {
+    width: 350px;
+    height: 180px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    color: black;
+    margin: 10px 0;
+    background-color:rgb(120, 223, 113);
+    border-radius: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .ongoing-item {
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    color: black;
+    margin: 10px 0;
+   
+    background-color: rgb(227, 195, 131);
+    border-radius: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+  }
+  .view-btn{
+      background-color:rgb(43, 196, 23) ;
+      width: 100px;
+      margin-left: 55px;
+      color: #0d0e10;
+  }
+  .view-btn:hover{
+     background-color: rgb(109, 201, 97);
+   
+  }
+  .view-btn1{
+    background-color:rgb(210, 167, 58);
+    width: 100px;
+    margin-left: 55px;
+    color: #080b09;
+  }
+  .view-btn1:hover{
+    background-color:rgb(234, 181, 45);
+  }
+  .date-in-joindetails{
+        color: #a94dee;
+        font-weight: 600;
+  }

@@ -1,0 +1,32 @@
+
+.home-container {
+    display: flex;
+    align-items: center;
+    background-color: #acc8e5;
+  }
+  .hero-image {
+    float: left;
+    height: 600px;
+    width: 100%; /* Set a max width for the image */
+  }
+  
+  .content {
+    width: 15%;
+    margin: auto;
+  }
+  
+  .chall-home {
+    font-size: 24px; /* Adjust font size */
+    margin: 0;
+  }
+  
+  .chall-explore-home {
+    font-size: 16px; /* Adjust font size */
+    margin: 10px 0; /* Space above and below the paragraph */
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
